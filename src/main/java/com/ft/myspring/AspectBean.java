@@ -4,11 +4,11 @@ package com.ft.myspring;
 public class AspectBean {
     @MyBefore
     public void mybefore() {
-        System.out.println("before");
+        System.out.println("custom before");
     }
 
     @MyAfter
     public void myafter() {
-        System.out.println("after");
+        System.out.println("custom after");
     }
 }
